@@ -1,0 +1,14 @@
+{
+  "name": "refactoring-ui-plugin",
+  "owner": {
+    "name": "gnurio"
+  },
+  "plugins": [
+    {
+      "name": "refactoring-ui-skills",
+      "source": "./",
+      "description": "AI-powered UI design skills based on Refactoring UI principles.",
+      "homepage": "https://github.com/gnurio/refactoring-ui-plugin"
+    }
+  ]
+}
