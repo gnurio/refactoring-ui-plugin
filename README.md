@@ -1,9 +1,14 @@
 # Refactoring UI Skills
 
-AI-powered UI design skills for evaluating and improving interfaces using principles from *Refactoring UI* by Adam Wathan and Steve Schoger.
+Ten structured AI skills for evaluating and improving UI designs — covering visual hierarchy, typography, color, spacing, buttons, clutter, empty states, shadows, contrast, and grouping. Use individual skills for targeted fixes or invoke the `meta-refactor-ui` orchestrator for a full design pass.
 
 [![Skills](https://img.shields.io/badge/skills-10-blue)](./skills.json)
 [![Platforms](https://img.shields.io/badge/platforms-Claude%20%7C%20Codex%20%7C%20Cursor-blueviolet)](./PLATFORM_GUIDE.md)
+
+> **Attribution:** These skills are based on the principles and methodology in
+> [*Refactoring UI*](https://refactoringui.com/) by Adam Wathan and Steve Schoger
+> (© Tailwind Labs Inc.). This repository is an independent AI skill implementation
+> and is not affiliated with or endorsed by Tailwind Labs.
 
 ## Overview
 
@@ -82,4 +87,7 @@ node -e "console.log(require('./adapters/platform-adapter').getPlatformDisplayNa
 
 ## License
 
-MIT. See [LICENSE](./LICENSE).
+All rights reserved. See [LICENSE](./LICENSE).
+
+These skills are based on *Refactoring UI* by Adam Wathan and Steve Schoger (© Tailwind Labs Inc.).
+This repository is not affiliated with or endorsed by Tailwind Labs.
