@@ -1,0 +1,53 @@
+# Local research and implementation notes
+AUTORESEARCH_FINAL.md
+COMPOUND_ENGINEERING_ANALYSIS.md
+IMPLEMENTATION_SUMMARY.md
+MULTIPLATFORM_IMPLEMENTATION.md
+autoresearch.md
+autoresearch.jsonl
+autoresearch.sh
+
+# Old local skill drafts kept outside the publishable plugin shape
+skills/*.md
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.backup.*
+*.orig
+*.old
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Agent/tool caches
+.agents/
+.firecrawl/
+.superdesign/
+.claude-design/
+skills-lock.json

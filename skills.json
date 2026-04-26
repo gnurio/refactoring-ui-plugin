@@ -1,0 +1,228 @@
+{
+  "name": "Refactoring UI Skills",
+  "version": "1.0.0",
+  "description": "Atomic UI design skills extracted from Refactoring UI by Adam Wathan & Steve Schoger",
+  "expert_agreement": "97%",
+  "skills": [
+    {
+      "id": "01-establish-visual-hierarchy",
+      "name": "establish-visual-hierarchy",
+      "title": "Establish Visual Hierarchy",
+      "description": "Determine what draws attention first using size, weight, color, and de-emphasis",
+      "type": "evaluative",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/01-establish-visual-hierarchy/SKILL.md",
+      "prerequisites": [],
+      "dependencies": [],
+      "examples": "examples/visual-hierarchy/",
+      "references": [
+        "references/size-isnt-everything.md",
+        "references/emphasize-by-de-emphasizing.md",
+        "references/ignore-document-hierarchy.md"
+      ],
+      "test_cases": 5
+    },
+    {
+      "id": "02-apply-typography-scale",
+      "name": "apply-typography-scale",
+      "title": "Apply Typography Scale",
+      "description": "Create hierarchy with hand-crafted font sizes, weights, and colors",
+      "type": "generative",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/02-apply-typography-scale/SKILL.md",
+      "prerequisites": [
+        "01-establish-visual-hierarchy"
+      ],
+      "dependencies": [],
+      "examples": "examples/typography-scale/",
+      "references": [
+        "references/hand-crafted-scales.md",
+        "references/avoid-em-units.md",
+        "references/line-height-proportion.md"
+      ],
+      "test_cases": 6
+    },
+    {
+      "id": "03-build-color-palette",
+      "name": "build-color-palette",
+      "title": "Build Color Palette",
+      "description": "Create comprehensive palette with 8-10 greys, 5-10 primary, 5-10 accent shades",
+      "type": "generative",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/03-build-color-palette/SKILL.md",
+      "prerequisites": [],
+      "dependencies": [],
+      "examples": "examples/color-palette/",
+      "references": [
+        "references/greys-majority.md",
+        "references/define-shades-upfront.md",
+        "references/no-opacity.md"
+      ],
+      "test_cases": 3
+    },
+    {
+      "id": "04-apply-consistent-spacing",
+      "name": "apply-consistent-spacing",
+      "title": "Apply Consistent Spacing",
+      "description": "Use systematic spacing with 25% minimum jumps, start with excess whitespace",
+      "type": "generative",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/04-apply-consistent-spacing/SKILL.md",
+      "prerequisites": [],
+      "dependencies": [],
+      "examples": "examples/consistent-spacing/",
+      "references": [
+        "references/start-with-excess.md",
+        "references/avoid-ambiguous-spacing.md",
+        "references/whitespace-over-borders.md"
+      ],
+      "test_cases": 1
+    },
+    {
+      "id": "05-design-button-hierarchy",
+      "name": "design-button-hierarchy",
+      "title": "Design Button Hierarchy",
+      "description": "Create clear primary/secondary/tertiary action distinctions",
+      "type": "generative",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/05-design-button-hierarchy/SKILL.md",
+      "prerequisites": [],
+      "dependencies": [
+        "03-build-color-palette"
+      ],
+      "examples": "examples/button-hierarchy/",
+      "references": [
+        "references/primary-obvious.md",
+        "references/grey-secondary-ok.md",
+        "references/destructive-not-dominant.md"
+      ],
+      "test_cases": 1
+    },
+    {
+      "id": "06-eliminate-visual-clutter",
+      "name": "eliminate-visual-clutter",
+      "title": "Eliminate Visual Clutter",
+      "description": "Remove unnecessary borders, backgrounds, shadows, decorations",
+      "type": "corrective",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/06-eliminate-visual-clutter/SKILL.md",
+      "prerequisites": [],
+      "dependencies": [
+        "04-apply-consistent-spacing"
+      ],
+      "examples": "examples/eliminate-clutter/",
+      "references": [
+        "references/borders-vs-whitespace.md",
+        "references/progression-of-simplification.md"
+      ],
+      "test_cases": 1
+    },
+    {
+      "id": "07-design-empty-states",
+      "name": "design-empty-states",
+      "title": "Design Empty States",
+      "description": "Create helpful, actionable zero-content states",
+      "type": "generative",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/07-design-empty-states/SKILL.md",
+      "prerequisites": [],
+      "dependencies": [
+        "05-design-button-hierarchy"
+      ],
+      "examples": "examples/empty-states/",
+      "references": [
+        "references/never-dead-end.md",
+        "references/hide-useless-ui.md"
+      ],
+      "test_cases": 1
+    },
+    {
+      "id": "08-use-shadows-appropriately",
+      "name": "use-shadows-appropriately",
+      "title": "Use Shadows Appropriately",
+      "description": "Add depth only when functionally necessary (elevation, not decoration)",
+      "type": "corrective",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/08-use-shadows-appropriately/SKILL.md",
+      "prerequisites": [],
+      "dependencies": [],
+      "examples": "examples/shadows/",
+      "references": [
+        "references/shadows-convey-elevation.md",
+        "references/subtle-ok-large-wrong.md"
+      ],
+      "test_cases": 1
+    },
+    {
+      "id": "09-manage-color-contrast",
+      "name": "manage-color-contrast",
+      "title": "Manage Color Contrast",
+      "description": "Ensure WCAG AA accessibility and readability",
+      "type": "evaluative",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/09-manage-color-contrast/SKILL.md",
+      "prerequisites": [],
+      "dependencies": [
+        "03-build-color-palette"
+      ],
+      "examples": "examples/color-contrast/",
+      "references": [
+        "references/wcag-aa-requirements.md"
+      ],
+      "test_cases": 0
+    },
+    {
+      "id": "10-group-related-elements",
+      "name": "group-related-elements",
+      "title": "Group Related Elements",
+      "description": "Use proximity and spacing to show relationships",
+      "type": "generative",
+      "domain": "ui-design",
+      "version": "1.0.0",
+      "path": "skills/10-group-related-elements/SKILL.md",
+      "prerequisites": [],
+      "dependencies": [
+        "04-apply-consistent-spacing"
+      ],
+      "examples": "examples/grouping/",
+      "references": [
+        "references/proximity-principle.md",
+        "references/more-space-around-than-within.md"
+      ],
+      "test_cases": 1
+    }
+  ],
+  "meta_skill": {
+    "name": "refactor-ui",
+    "description": "Analyze a design against all 10 Refactoring UI skills",
+    "path": "skills/meta-refactor-ui/SKILL.md",
+    "dependencies": [
+      "01-establish-visual-hierarchy",
+      "02-apply-typography-scale",
+      "03-build-color-palette",
+      "04-apply-consistent-spacing",
+      "05-design-button-hierarchy",
+      "06-eliminate-visual-clutter",
+      "07-design-empty-states",
+      "08-use-shadows-appropriately",
+      "09-manage-color-contrast",
+      "10-group-related-elements"
+    ]
+  },
+  "total_test_cases": 20,
+  "validation": {
+    "expert_source": "NotebookLM - Refactoring UI book",
+    "agreement_rate": "97%",
+    "cases_validated": 29,
+    "last_validated": "2024-04-26"
+  }
+}

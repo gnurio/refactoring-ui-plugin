@@ -1,0 +1,21 @@
+{
+  "name": "refactoring-ui-skills",
+  "version": "1.0.0",
+  "description": "AI-powered UI design skills based on Refactoring UI principles. Evaluate and improve interface designs with expert-validated guidance.",
+  "author": {
+    "name": "Refactoring UI Expert",
+    "url": "https://refactoringui.com/"
+  },
+  "homepage": "https://github.com/gnurio/refactoring-ui-plugin",
+  "repository": "https://github.com/gnurio/refactoring-ui-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ui-design",
+    "refactoring-ui",
+    "design-system",
+    "visual-hierarchy",
+    "typography",
+    "color-palette",
+    "spacing"
+  ]
+}
